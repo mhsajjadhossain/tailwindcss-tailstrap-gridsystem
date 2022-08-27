@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-tailstrap-gridsystem",
+  "name": "tailwindcss-tailstrap-grid-system",
   "version": "1.0.0",
   "description": "Tailstrap grid system allows you to use the same 12 column grid system, containers and rows into your tailwind css projects.",
   "main": "index.js",
@@ -16,12 +16,17 @@
     "tailwind grid system",
     "bootstrap grid system",
     "bootstrap grid system in tailwind",
-    "bootstrap"
+    "bootstrap",
+    "tailwind plugin",
+    "plugin"
   ],
   "author": "M.h Sajjad Hossain Ripon",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mhsajjadhossain/tailwindcss-tailstrap-gridsystem/issues"
   },
-  "homepage": "https://github.com/mhsajjadhossain/tailwindcss-tailstrap-gridsystem#readme"
+  "homepage": "https://github.com/mhsajjadhossain/tailwindcss-tailstrap-gridsystem#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
 }
