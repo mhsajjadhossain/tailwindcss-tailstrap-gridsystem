@@ -6,8 +6,9 @@
  * Time: 14:40:45.000-05:00
  */
 
-const { generateColumns } = require("../helpers/helpers");
+const { generateColumns, generateOffset } = require("../helpers/helpers");
 const columns = generateColumns();
+const offsets = generateOffset();
 
 // const { generateColumns } = require("./helpers");
 const utilityStyles = {
@@ -152,5 +153,6 @@ const utilityStyles = {
   },
   //   all columns width styles
   ...columns,
+  ...offsets,
 };
 module.exports = utilityStyles;

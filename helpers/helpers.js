@@ -20,5 +20,19 @@ const generateColumns = () => {
   });
   return columnStyles;
 };
+/**
+ * @method generateOffset()
+ * @des generate column width classes
+ */
+const generateOffset = () => {
+  const columnCount = Array.from(Array(12).keys());
+  const columnStyles = {};
+  columnCount.map((item, index) => {
+    columnStyles[`.offset-${index + 1}`] = {
+      marginLeft: `${(100 / 12) * (index + 1)}%`,
+    };
+  });
+  return columnStyles;
+};
 
-module.exports = { generateColumns };
+module.exports = { generateColumns, generateOffset };

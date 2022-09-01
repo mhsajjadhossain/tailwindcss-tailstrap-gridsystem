@@ -12,13 +12,13 @@
   },
   "keywords": [
     "tailwind",
-    "tailwind css",
+    "tailwindcss",
     "tailwind grid system",
     "bootstrap grid system",
-    "bootstrap grid system in tailwind",
+    "grid system",
     "bootstrap",
-    "tailwind plugin",
-    "plugin"
+    "flexbox",
+    "grid"
   ],
   "author": "M.h Sajjad Hossain Ripon",
   "license": "MIT",
