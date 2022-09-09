@@ -6,7 +6,7 @@
  * Time: 14:40:45.000-05:00
  */
 
-const { generateColumns, generateOffset } = require("../helpers/helpers");
+const { generateColumns, generateOffset } = require("../helpers");
 const columns = generateColumns();
 const offsets = generateOffset();
 

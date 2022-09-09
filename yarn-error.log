@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\M.h Sajjad Hossain\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D jest @type/jest
+
+PATH: 
+  C:\Users\M.h Sajjad Hossain\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\M.h Sajjad Hossain\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Cloudflare\Cloudflare WARP;C:\Users\M.h Sajjad Hossain\AppData\Local\Microsoft\WindowsApps;C:\Users\M.h Sajjad Hossain\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\M.h Sajjad Hossain\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@type%2fjest: Not found
+      at Request.params.callback [as _callback] (C:\Users\M.h Sajjad Hossain\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\M.h Sajjad Hossain\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\M.h Sajjad Hossain\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\M.h Sajjad Hossain\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "@mhsajjadhossain/tailwindcss-tailstrap-grid-system",
+    "version": "1.0.1",
+    "description": "Tailstrap grid system allows you to use the same 12 column grid system, containers and rows into your tailwind css projects.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mhsajjadhossain/tailwindcss-tailstrap-gridsystem.git"
+    },
+    "keywords": [
+      "tailwind",
+      "tailwindcss",
+      "tailwind grid system",
+      "bootstrap grid system",
+      "grid system",
+      "bootstrap",
+      "flexbox",
+      "grid"
+    ],
+    "author": "M.h Sajjad Hossain Ripon",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mhsajjadhossain/tailwindcss-tailstrap-gridsystem/issues"
+    },
+    "homepage": "https://github.com/mhsajjadhossain/tailwindcss-tailstrap-gridsystem#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
